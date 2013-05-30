@@ -1,11 +1,11 @@
 Summary:	Minimalistic plugin API for video effects
 Name:		frei0r
-Version:	1.3
-Release:	4
+Version:	1.4
+Release:	1
 License:	GPL v2
 Group:		Applications
 Source0:	ftp://ftp.dyne.org/frei0r/releases/%{name}-plugins-%{version}.tar.gz
-# Source0-md5:	a2eb63feeeb0c5cf439ccca276cbf70c
+# Source0-md5:	202375d1bcb545c1b6eb8f34e0260ec5
 BuildRequires:	OpenCV-devel
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -24,7 +24,7 @@ Group:		Development/Libraries
 This is the package containing the header files for frei0r library.
 
 %prep
-%setup -q
+%setup -qn %{name}-plugins-%{version}
 
 %build
 %{__libtoolize}
