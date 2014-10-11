@@ -1,7 +1,7 @@
 Summary:	Minimalistic plugin API for video effects
 Name:		frei0r
 Version:	1.4
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		Applications
 Source0:	ftp://ftp.dyne.org/frei0r/releases/%{name}-plugins-%{version}.tar.gz
